@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #df9f7500;
+    --secondary-color: #daad7200;
+    --neutral-color: #D8C99B;
+    --neutral-dark: #273e47;
+    --accent-color: #f08d8d00;
+}
+
+.container {
+    background-color: var(--neutral-color);
+}
+
+h1, h2{
+    color: var(--primary-color);
+}
+
+h3 {
+    color: var(--secondary-color);
+}
+
+p {
+    color: var(--neutral-color);
+}
+
+.circles {
+    width: 100px;
+    height: 100px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
+/* svg {
+    color: var(--accent-color);
+} */
+
