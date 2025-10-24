@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #df9f7500;
-    --secondary-color: #daad7200;
+    --primary-color: #9de7dd00;
+    --secondary-color: #ccece400;
     --neutral-color: #D8C99B;
     --neutral-dark: #273e47;
     --accent-color: #f08d8d00;
@@ -28,6 +28,11 @@ p {
     background-color: var(--accent-color);
     border-radius: 50%;
 }
+
+.body {
+    font-family: 'Arima' sans-serif;
+}
+
 
 /* svg {
     color: var(--accent-color);
